@@ -1,0 +1,266 @@
+#include <iostream>
+#include <conio.h>
+
+
+using namespace std;
+
+int main()
+{
+	int mm, dd, yyyy;
+	
+	cout << "Enter birth mm:" << endl;
+	cin >> mm;
+	cout << "Enter birth dd:" << endl;
+	cin >> dd;
+	cout << "Enter birth yyyy" << endl;
+	cin >> yyyy;
+	
+	
+	// Birth mm/dd/yyyy
+	
+	if (mm == 1 && dd >= 32)
+		{
+			cout << "Invalid Date!" << endl;
+		}	
+		else if (mm == 1)
+			{
+				cout << "01" << " " << dd << "," << yyyy << endl;
+			}
+			
+			
+		
+		// Birth leap yyyy
+	
+		else if (mm == 2 && dd >= 29 && yyyy == 1981)
+			{
+					cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1982)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1983)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1985)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1986)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1987)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1989)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1990)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1991)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1993)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1994)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1995)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1997)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1998)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 1999)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 2001)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 2002)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 2003)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 2005)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 2006)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 2007)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 2009)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 2010)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 2011)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd >= 29 && yyyy == 2013)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd == 29 && yyyy == 2014)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd == 29 && yyyy == 2015)
+		{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd == 29 && yyyy == 2017)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd == 29 && yyyy == 2018)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 2 && dd == 29 && yyyy == 2019)
+			{
+				cout << "Invalid Date!" << endl;
+			}	
+			
+		else if (mm == 2)
+			{
+				cout << "February" << " " << dd << "," << yyyy << endl;
+			}
+		
+		
+		
+		else if (mm == 3 && dd >= 32)
+			{
+				cout << "Invalid Date" << endl;
+			}
+		else if (mm == 3)
+			{
+				cout << "March" << " " << dd << "," << yyyy << endl;
+			}
+			
+			
+		else if (mm == 4 && dd >= 31)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 4)
+			{
+				cout << "April" << " " << dd << "," << yyyy << endl;
+			}
+			
+			
+		else if (mm == 5 && dd >= 32)
+			{
+				cout << "Invalid Date!" << endl;
+			}	
+		else if (mm == 5)
+			{
+				cout << "May" << " " << dd << "," << yyyy << endl;
+			}
+			
+			
+			
+		else if (mm == 6 && dd >= 31)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 6)
+			{
+				cout << "June" << " " << dd << "," << yyyy << endl;
+			}
+			
+			
+		else if (mm == 7 && dd >= 32)
+			{
+				cout << "Invalid Date!" << endl;
+			}	
+		else if (mm == 7)
+			{
+				cout << "July" << " " << dd << "," << yyyy << endl;
+			}
+			
+			
+		else if (mm == 8 && dd >= 32)
+			{
+				cout << "Invalid Date!" << endl;
+			}	
+		else if (mm == 8)
+			{
+				cout << "August" << " " << dd << "," << yyyy << endl;
+			}
+		
+		
+		else if (mm == 9 && dd >= 31)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 9)
+			{
+				cout << "September" << " " << dd << "," << yyyy << endl;
+			}
+		
+		
+		else if (mm == 10 && dd >= 32)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 10)
+			{
+				cout << "October" << " " << dd << "," << yyyy << endl;
+			}
+		
+		
+		else if (mm == 10 && dd >= 32)
+			{
+				cout << "Invalid Date!" << endl;
+			}
+		else if (mm == 11)
+			{
+					cout << "November" << " " << dd << "," << yyyy << endl;
+			}
+		
+		
+		
+		else if (mm == 12 && dd >= 32)
+			{
+				cout << "Invalid Date!" << endl;
+			}	
+		else if (mm == 12)
+			{
+				cout << "December" << " " << dd << "," << yyyy << endl;
+			}
+				
+		
+	_getch();
+	return 0;
+}
